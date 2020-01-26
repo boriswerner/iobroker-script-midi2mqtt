@@ -20,8 +20,10 @@ var MIDI_DEVICE = 'Numark ORBIT:Numark ORBIT MIDI 1 20:0'
 The MIDI device information can be retrieved by starting the script and looking at the log, e.g.:
 
 `info	javascript.0 (1381) script.js.media.MIDI2MQTT_Test: Available MIDI inputs: Midi Through:Midi Through Port-0 14:0,Samson Graphite M25:Samson Graphite M25 MIDI 1 20:0,Numark ORBIT:Numark ORBIT MIDI 1 24:0,RtMidi Output Client:RtMidi Output 131:0`
+
 `info	javascript.0 (1381) script.js.media.MIDI2MQTT_Test: Available MIDI outputs: Midi Through:Midi Through Port-0 14:0,Samson Graphite M25:Samson Graphite M25 MIDI 1 20:0,Numark ORBIT:Numark ORBIT MIDI 1 24:0,RtMidi Input Client:RtMidi Input 130:0`
 
 Here you can see two MIDI devices (the number might change if you add more MIDI devices, initially the Numark device had `20:0`, when I added the Samson this changed to `24:0`):
+
 `Numark ORBIT:Numark ORBIT MIDI 1 24:0`
 `Samson Graphite M25:Samson Graphite M25 MIDI 1 20:0`
